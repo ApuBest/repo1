@@ -1,1 +1,6 @@
-<center><h1>This is a Sample Rails app ! Its working on Heroku.</h1></center>
+<h1>Hello apu, Rails!</h1>
+
+<br>
+<%= form_tag( 'welcome/hello', :method => :get ) %>
+Enter name : <%= text_field_tag "person" %>
+<%= submit_tag "Go to next page" %>
