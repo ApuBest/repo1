@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
   end
 
  def hello
- 	g="apu"
+ 
  	@data=params[:person]
   end
 
